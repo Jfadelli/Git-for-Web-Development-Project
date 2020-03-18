@@ -1,0 +1,64 @@
+html{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height:1.5;
+    font-size:18
+}
+body{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    border-style:solid;    
+    padding:2em 8em;
+    border-width: 1.5em;
+    border-color: teal
+}
+h1{
+    text-align: center;
+    color:gray;
+}h1:hover{
+    color:burlywood;
+}
+.sec1{
+    padding:2em;
+    background-color: mediumaquamarine;
+}
+.sec1:hover{
+    background-color: coral;
+}
+.sec2{
+    padding:2em;
+    background-color: rgb(5, 46, 32);
+    color:turquoise;
+}
+.sec2:hover{
+    background-color:burlywood;
+    color:coral;
+}
+.sec3{
+    color: darkslategray
+}
+.sec3:hover{
+    color:sandybrown;
+}
+h2.last{
+    color:lightgray;
+}
+h2.last:hover{
+        color:sandybrown;
+}
+#pics{
+    display: flex;
+    justify-content: space-between;
+   
+}
+img:hover{
+    border-style: dotted;
+    border-color:red;
+    border-width: 1em;
+}
+.image{
+    margin: 10em 0 
+}
+*{
+box-sizing: border-box;
+}
